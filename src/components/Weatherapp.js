@@ -23,6 +23,7 @@ const Weatherapp = () => {
           <input
             className="Sinput border rounded-2xl px-3 border-zinc-900 "
             type="search"
+            placeholder="Type city name to search weather"
             onChange={(event) => {
               //   setCity = event.value;
 
